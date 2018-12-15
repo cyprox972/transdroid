@@ -32,7 +32,7 @@
 			android:layout_gravity="center_horizontal"
 			android:layout_marginBottom="@dimen/margin_half"
 			android:layout_marginTop="@dimen/margin_half"
-			android:drawableLeft="@drawable/ic_launcher"
+			android:drawableLeft="@mipmap/ic_launcher"
 			android:drawablePadding="@dimen/margin_half"
 			android:fontFamily="sans-serif-condensed"
 			android:gravity="center_vertical"

@@ -218,7 +218,7 @@ public class NavigationHelper {
 										.cacheInMemory(true)
 										.cacheOnDisk(true)
 										.imageScaleType(ImageScaleType.IN_SAMPLE_INT)
-										.showImageForEmptyUri(R.drawable.ic_launcher).build())
+										.showImageForEmptyUri(R.mipmap.ic_launcher).build())
 						.memoryCache(new UsingFreqLimitedMemoryCache(1024 * 1024))
 						.diskCache(diskCache);
 				imageCache.init(imageCacheBuilder.build());
